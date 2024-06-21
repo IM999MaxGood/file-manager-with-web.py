@@ -1,0 +1,34 @@
+$def with(page)
+
+$#Content-Type: application/json
+$#Access-Control-Allow-Origin: *
+
+$#:print "Content-Type: application/json"
+$#:print "Access-Control-Allow-Origin: *"
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python File Manger</title>
+
+        <!-- im999 for icons in file manager -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- im999 File Manager -->
+        <link rel="stylesheet" href="static/im999maxgood-filemanager/css/im999maxgood-filemanager-main.css">
+        <script src="static/im999maxgood-filemanager/js/im999maxgood-filemanager-python.js" ></script>
+
+    </head>
+    <body>
+        $:page
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+        im999maxgood_filemanager.init({
+            selector: 'div-file-list'                
+        });
+    </script>
+
+</html>

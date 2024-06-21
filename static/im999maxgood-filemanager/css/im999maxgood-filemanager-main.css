@@ -1,0 +1,262 @@
+#div-file-list{
+    width: 350px;
+    height: 350px;
+
+    min-width: 350px;
+    min-height: 350px;
+    
+    /*overflow: overlay;*/
+    overflow: hidden;
+    
+    border: 1px solid black;
+
+    resize: both;
+}
+
+
+#hPath{
+    margin: 1px;
+    background-color: antiquewhite;
+
+    font-size: 0.83em;
+    font-weight: bold;
+
+    display: grid;
+}
+
+
+#hPath a{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+#hPath a:hover{
+    cursor: pointer;
+}
+
+
+#div-file-list table tr th{
+    background-color: rosybrown;
+}
+
+
+#div-file-list table tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+
+#div-file-list table tr:nth-child(odd){
+    background-color: ivory;
+}
+
+
+#div-file-list table .dir span[im999-data='K'], 
+#div-file-list table .dir span[im999-data='N']{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#hStatus{
+    margin: 2px;
+
+    font-size: 0.83em;
+    font-weight: bold;
+}
+
+
+#hStatus.normal{
+    background-color: beige;    
+}
+
+
+#hStatus.error{
+    background-color: indianred; /*red;*/   
+}
+
+
+#hStatus.ok{
+    background-color: lightgreen; /*green;*/    
+}
+
+
+#div-file-list button{
+    height: 25px;
+    margin: 1px;
+
+    border-radius: 25%;
+    border: 1px solid gray;
+}
+
+
+#divButtons{
+    height: 8%;
+}
+
+
+#hPath{
+    /*height: 8%;*/
+    height: 12%;
+}
+
+
+#hStatus{
+    height: 5%;
+}
+
+
+/* im999 for scroll tbody*******/
+.tableFixHead {
+    overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+    
+    /*height: 200px;*/ /* gives an initial height of 200px to the table */
+
+    /*height: 80%;*/
+    height: 75%;
+    width: 100%;
+}
+
+
+.tableFixHead thead th {
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+}
+
+
+.tableFixHead table{
+    width: 100%;
+}
+
+
+.tableFixHead thead tr  th:nth-of-type(1),
+.tableFixHead tbody tr  td:nth-of-type(1) {
+    width: 7%;
+}
+
+
+.tableFixHead thead tr  th:nth-of-type(2),
+.tableFixHead tbody tr  td:nth-of-type(2) {
+    width: 13%;
+}
+
+
+.tableFixHead thead tr  th:nth-of-type(3),
+.tableFixHead tbody tr  td:nth-of-type(3) {
+    width: 45%;
+}
+
+
+.tableFixHead thead tr  th:nth-of-type(4){
+    width: 30%;
+} 
+
+
+.tableFixHead thead tr  th:nth-of-type(5){
+    width: 5%;
+}
+
+
+.tableFixHead tbody tr  td:nth-of-type(4), 
+.tableFixHead tbody tr  td:nth-of-type(5), 
+.tableFixHead tbody tr  td:nth-of-type(6){
+    width: 10%;
+    text-align: center;
+} 
+
+
+.tableFixHead tbody tr  td:nth-of-type(7) 
+{
+    width: 5%;
+    text-align: center;
+}
+
+/*#div-search-im999*******************************************/
+#div-search-im999{
+    position: relative;
+}
+
+
+#div-search-im999 input{
+    width: 75%;
+}
+
+
+#div-search-list-im999{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    background-color: white;
+    border: 1px solid gray;
+
+    position: absolute;
+    padding: 10px;
+    z-index: 100;
+    width: 75%;
+}
+
+
+#div-search-list-im999 ul{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+}
+
+
+#div-search-list-im999 ul li{
+    min-height: 25px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+#div-search-list-im999 ul li:hover{
+    background-color: #eee;
+}
+
+
+.div-search-list-im999-li-active{
+    background-color: #eee;
+}
+
+
+#div-search-list-im999 ul li a{
+    width: 100%;
+    /*display: inline-block;*/
+
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+#div-search-list-im999:empty {
+    border: none;
+    padding: 0px;
+    /*overflow: auto;*/
+}
+
+
+#div-search-list-im999 .im999-go-icon{
+    position: absolute;
+    right: 0px;
+
+    cursor: pointer;
+    
+    /*height: 20px;*/
+}
+
+/*
+i.delete-icon-im999 {
+    width: 15px;
+    background-image: url('/static/im999maxgood-filemanager/img/close.png');
+    display: block;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 15px;
+}
+*/
+
+
+
