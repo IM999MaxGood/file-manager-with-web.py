@@ -12,7 +12,7 @@ http://localhost:8080/api/filemanager?func=get-list-files&path=\
 
 
 attention: don't delete temp dir. this folder use for make .zip file download
-
+  don't delete www dir
 
 path=\bb\\\\\..
 path=\bb\\\\\
