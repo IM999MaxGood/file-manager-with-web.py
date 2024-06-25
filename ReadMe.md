@@ -1,8 +1,8 @@
 # file-manager-with-web.py
 
-# file manager with Python web.py
+# file manager with Python web.py and JQuery
 
-file-manager-with-web.py is a file manager with python we.py.
+file-manager-with-web.py is a file manager with python web.py.
 
 >[!WARNING]
 >I tested it a little
