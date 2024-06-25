@@ -11,7 +11,7 @@ file-manager-with-web.py is a file manager with python web.py.
 >I tested it a little
 
 > [!IMPORTANT]  
-> Thanks the God :)💐😀🌸🌺🌹🌼🌷
+> Thanks **the God** :)💐😀🌸🌺🌹🌼🌷
 
 [facebook: facebook.com/Iounes.Manoochehri](https://facebook.com/Iounes.Manoochehri)
 
